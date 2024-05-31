@@ -7,10 +7,10 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Welcome to Simple PHP MVC Starter!</h1>
+    <h1>Welcome to BADON FW (MVC) Starter!</h1>
     <ul>
-    <?php foreach ($data as $journal) : ?>
-        <li><?= $journal->name ?> (<?= $journal->publishedYear ?>)</li>
+    <?php foreach ($data as $item) : ?>
+        <li><?= $item->name ?> (<?= $item->createdAt ?>)</li>
     <?php endforeach; ?>
 </ul>
 </body>

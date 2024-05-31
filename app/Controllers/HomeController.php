@@ -8,12 +8,10 @@ class HomeController extends Controller
 {
     public function index()
     {
-        $journals = [
-            new Journal("First Book", 2003),
-            new Journal("Second Book", 2004),
-            new Journal("Third Book", 2005),
+        $data = [
+            new Journal("John Doe - Badon FW (MVC)", 2024),
         ];
-        $this->render("index", $journals);
+        $this->render("index", $data);
     }
 }
 
