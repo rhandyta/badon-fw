@@ -2,14 +2,14 @@
 
 namespace App\Controllers;
 
-use App\Models\Journal;
+use App\Models\User;
 
 class HomeController extends Controller
 {
     public function index()
     {
         $data = [
-            new Journal("John Doe - Badon FW (MVC)", 2024),
+            new User("John Doe - Badon FW (MVC)", date('Y')),
         ];
         $this->render("index", $data);
     }
