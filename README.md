@@ -1,4 +1,4 @@
-<h3 align="center">PHP Framework BadonFW</h3>
+<h3 align="center">PHP Framework (MVC) BadonFW</h3>
 ### Prerequisites
 
 This is an example of how to list things you need to use the software and how to install them.
@@ -17,37 +17,22 @@ php -r "unlink('composer-setup.php');"
 sudo apt-get install php7.4-curl
 ```
 
-### Installation
+### Installation & Running
 
 1. Clone the repo
 
 ```sh
-git clone https://github.com/rhandyta/noteapp.git
+git clone https://github.com/rhandyta/badon-fw.git
 ```
+
+2. Clone the repo
 
 ```sh
-git clone https://github.com/rhandyta/noteapp-api.git
+cd badon-fw 
+cd public
+
+php -S localhost:9999
 ```
-`backend using laravel`
-3. Install NPM packages
-
-```sh
-npm install
-```
-
-4. Enter your API in `.env`
-
-```JS
-VITE_API_URL = 'ENTER YOUR API URL';
-```
-
-### Creating A Pull Request
-
-
-
-## License
-
-Distributed under the MIT License. See [LICENSE](https://github.com/rhandyta/Noteapp/blob/main/LICENSE.md) for more information.
 
 ## Authors
 
