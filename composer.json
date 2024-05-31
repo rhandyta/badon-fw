@@ -1,0 +1,20 @@
+{
+    "name": "rhand/badonfw",
+    "description": "Framework Small Project",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Rhand\\Badonfw\\": "app//",
+            "App\\": "app/"
+        }
+    },
+    "authors": [
+        {
+            "name": "rhandyta",
+            "email": "rhandytabriantama@gmail.com"
+        }
+    ],
+    "minimum-stability": "beta",
+    "require": {}
+}
